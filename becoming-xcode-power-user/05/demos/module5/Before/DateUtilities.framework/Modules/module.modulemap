@@ -1,0 +1,11 @@
+framework module DateUtilities {
+  umbrella header "DateUtilities.h"
+
+  export *
+  module * { export * }
+}
+
+module DateUtilities.Swift {
+    header "DateUtilities-Swift.h"
+    requires objc
+}
