@@ -1,0 +1,182 @@
+[
+    {
+        "name": "Beachside Bungalow",
+        "category": "Waterfront",
+        "city": "Twentynine Palms",
+        "state": "CA",
+        "id": 1001,
+        "isFeatured": true,
+        "isFavorite": true,
+        "askingPrice": "$78,291",
+        "coordinates": {
+            "longitude": -116.131764,
+            "latitude": 34.159882
+        },
+        "imageName": "beachsidebungalow"
+    },
+    {
+        "name": "Cheap Chalet",
+        "category": "Rural",
+        "city": "Thackerville",
+        "state": "OK",
+        "id": 1002,
+        "isFeatured": false,
+        "isFavorite": false,
+        "askingPrice": "$48,599",
+        "coordinates": {
+            "longitude": -97.154502,
+            "latitude": 33.793089
+        },
+        "imageName": "cheapchalet"
+    },
+    {
+        "name": "Colonial Cabin",
+        "category": "Neighborhood",
+        "city": "Paris",
+        "state": "TX",
+        "id": 1003,
+        "isFeatured": false,
+        "isFavorite": true,
+        "askingPrice": "$67,400",
+        "coordinates": {
+            "longitude": -95.588345,
+            "latitude": 33.652809
+        },
+        "imageName": "colonialcabin"
+    },
+    {
+        "name": "Country Catchpenny",
+        "category": "Rural",
+        "city": "Browning",
+        "state": "MT",
+        "id": 1004,
+        "isFeatured": true,
+        "isFavorite": true,
+        "askingPrice": "$70,105",
+        "coordinates": {
+            "longitude": -113.021345,
+            "latitude": 48.558138
+        },
+        "imageName": "countrycatchpenny"
+    },
+    {
+        "name": "Pale Blue Bargain",
+        "category": "Neighborhood",
+        "city": "Twin Lakes",
+        "state": "WI",
+        "id": 1005,
+        "isFeatured": false,
+        "isFavorite": false,
+        "askingPrice": "$101,297",
+        "coordinates": {
+            "longitude": -88.285258,
+            "latitude": 42.521914
+        },
+        "imageName": "palebluebargain"
+    },
+    {
+        "name": "Shaggy Shed",
+        "category": "Rural",
+        "city": "Richmond",
+        "state": "IL",
+        "id": 1006,
+        "isFeatured": false,
+        "isFavorite": false,
+        "askingPrice": "$16,935",
+        "coordinates": {
+            "longitude": -88.292653,
+            "latitude": 42.461384
+        },
+        "imageName": "shaggyshed"
+    },
+    {
+        "name": "Front Porch Flipper",
+        "category": "Rural",
+        "city": "Paradise",
+        "state": "IA",
+        "id": 1007,
+        "isFeatured": true,
+        "isFavorite": false,
+        "askingPrice": "$53,352",
+        "coordinates": {
+            "longitude": -95.531267,
+            "latitude": 42.016130
+        },
+        "imageName": "frontporchflipper",
+    },
+    {
+        "name": "Stilted Steal",
+        "category": "Waterfront",
+        "city": "Tampa",
+        "state": "FL",
+        "id": 1008,
+        "isFeatured": false,
+        "isFavorite": false,
+        "askingPrice": "$88,887",
+        "coordinates": {
+            "longitude": -82.588964,
+            "latitude": 27.984479
+        },
+        "imageName": "stiltedsteal"
+    },
+    {
+        "name": "Suburban Setup",
+        "category": "Neighborhood",
+        "city": "Austin",
+        "state": "TX",
+        "id": 1009,
+        "isFeatured": false,
+        "isFavorite": false,
+        "askingPrice": "$99,915",
+        "coordinates": {
+            "longitude": -97.849547,
+            "latitude": 30.292859
+        },
+        "imageName": "suburbansetup"
+    },
+    {
+        "name": "Two Story Treat",
+        "category": "Neighborhood",
+        "city": "Sedro-Woolley",
+        "state": "WA",
+        "id": 1010,
+        "isFeatured": false,
+        "isFavorite": false,
+        "askingPrice": "$128,677",
+        "coordinates": {
+            "longitude": -122.241830,
+            "latitude": 48.497200
+        },
+        "imageName": "twostorytreat"
+    },
+    {
+        "name": "Cut-rate Cottage",
+        "category": "Rural",
+        "city": "Franklin",
+        "state": "VA",
+        "id": 1011,
+        "isFeatured": false,
+        "isFavorite": false,
+        "askingPrice": "$32,371",
+        "coordinates": {
+            "longitude": -76.961524,
+            "latitude": 36.688632
+        },
+        "imageName": "cutratecottage"
+    },
+    {
+        "name": "Woodland Wonder",
+        "category": "Rural",
+        "city": "Garden City",
+        "state": "AL",
+        "id": 1012,
+        "isFeatured": true,
+        "isFavorite": false,
+        "askingPrice": "$23,716",
+        "coordinates": {
+            "longitude": -86.750634,
+            "latitude": 34.020006
+        },
+        "imageName": "woodlandwonder"
+    }
+]
