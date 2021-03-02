@@ -262,7 +262,6 @@
 				CE7FE1B1234CA62B00033390 /* AppDelegate.swift */,
 				CE7FE1B3234CA62B00033390 /* SceneDelegate.swift */,
 				CE81991323509B39009AF3AF /* Models */,
-				CE2A7F8223606D4100F5AC64 /* Home Views */,
 				CE2A7F8323606D8200F5AC64 /* Fixer Upper Views */,
 				CED0788A235F7AFB007865E5 /* Profile Views */,
 				CE2A7F8423606E0900F5AC64 /* Badge Views */,
@@ -305,6 +304,7 @@
 		CE81991323509B39009AF3AF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CE2A7F8223606D4100F5AC64 /* Home Views */,
 				CE81991423509B47009AF3AF /* FixerUpperData.swift */,
 				CE81991623509B7E009AF3AF /* FixerUpper.swift */,
 				CEB7F1D82354874E002F517A /* UserData.swift */,
