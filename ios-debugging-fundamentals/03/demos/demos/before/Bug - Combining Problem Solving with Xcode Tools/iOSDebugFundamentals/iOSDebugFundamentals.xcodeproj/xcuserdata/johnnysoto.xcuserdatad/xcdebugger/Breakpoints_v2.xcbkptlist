@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "28200DDE-31C4-4C9F-BFA8-673F49515850"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A38C147-1E90-4ADE-A3FC-8787DE550323"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOSDebugFundamentals/Models/FixerUpperData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "loadData(_:as:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "2A38C147-1E90-4ADE-A3FC-8787DE550323 - 7fbbe1bb111abfb7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 1 of iOSDebugFundamentals.loadData&lt;A where A: Swift.Decodable&gt;(_: Swift.String, as: A.Type) -&gt; A"
+                  moduleName = "iOSDebugFundamentals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnnysoto/Code/swift-debugging-testing-building/ios-debugging-fundamentals/03/demos/demos/before/Bug%20-%20Combining%20Problem%20Solving%20with%20Xcode%20Tools/iOSDebugFundamentals/iOSDebugFundamentals/Models/FixerUpperData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "2A38C147-1E90-4ADE-A3FC-8787DE550323 - 903e6573f8631268"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOSDebugFundamentals.loadData&lt;A where A: Swift.Decodable&gt;(_: Swift.String, as: A.Type) -&gt; A"
+                  moduleName = "iOSDebugFundamentals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnnysoto/Code/swift-debugging-testing-building/ios-debugging-fundamentals/03/demos/demos/before/Bug%20-%20Combining%20Problem%20Solving%20with%20Xcode%20Tools/iOSDebugFundamentals/iOSDebugFundamentals/Models/FixerUpperData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "278">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "740CB8E1-72B8-4857-8126-AE9F88C911DC"
+            shouldBeEnabled = "No"
+            nameForDebugger = "fixerUpper"
+            ignoreCount = "0"
+            continueAfterRunningActions = "Yes"
+            filePath = "iOSDebugFundamentals/Fixer Upper Views/FixerUpperList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Actions>
+               <BreakpointActionProxy
+                  ActionExtensionID = "Xcode.BreakpointAction.Log">
+                  <ActionContent
+                     message = "Fixer Upper: @fixerUpper.name@ --- checking if favorite: @fixerUpper.isFavorite@"
+                     conveyanceType = "0">
+                  </ActionContent>
+               </BreakpointActionProxy>
+            </Actions>
+            <Locations>
+               <Location
+                  uuid = "740CB8E1-72B8-4857-8126-AE9F88C911DC - 36f4eca7158470b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0)&gt; in iOSDebugFundamentals.FixerUpperList.body.getter : some"
+                  moduleName = "iOSDebugFundamentals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnnysoto/Code/swift-debugging-testing-building/ios-debugging-fundamentals/03/demos/demos/before/Bug%20-%20Combining%20Problem%20Solving%20with%20Xcode%20Tools/iOSDebugFundamentals/iOSDebugFundamentals/Fixer%20Upper%20Views/FixerUpperList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "615">
+               </Location>
+               <Location
+                  uuid = "740CB8E1-72B8-4857-8126-AE9F88C911DC - 120d4b9d660740f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (iOSDebugFundamentals.FixerUpper) -&gt; Swift.Optional&lt;SwiftUI.NavigationLink&lt;iOSDebugFundamentals.FixerUpperRow, iOSDebugFundamentals.FixerUpperDetail&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Toggle&lt;SwiftUI.Text&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarTitle(SwiftUI.LocalizedStringKey) -&gt; some&gt;&gt;.0)&gt; in iOSDebugFundamentals.FixerUpperList.body.getter : some"
+                  moduleName = "iOSDebugFundamentals"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/johnnysoto/Code/swift-debugging-testing-building/ios-debugging-fundamentals/03/demos/demos/before/Bug%20-%20Combining%20Problem%20Solving%20with%20Xcode%20Tools/iOSDebugFundamentals/iOSDebugFundamentals/Fixer%20Upper%20Views/FixerUpperList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "877">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
