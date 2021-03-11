@@ -16,11 +16,10 @@ struct FixerUpperDetail: View {
     var body: some View {
         VStack {
             ZStack {
-                CircleImage(image: fixerUpper.image)
-
                 MapView(coordinate: fixerUpper.locationCoordinate)
                     .frame(height: 300)
                     .edgesIgnoringSafeArea(.top)
+                CircleImage(image: fixerUpper.image)
             }
             
             VStack(alignment: .leading) {
