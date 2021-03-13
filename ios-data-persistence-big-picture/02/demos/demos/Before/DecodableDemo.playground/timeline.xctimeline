@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Timeline
+   version = "3.0">
+   <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/johnnysoto/Code/swift-debugging-testing-building/ios-data-persistence-big-picture/02/demos/demos/Before/DecodableDemo.playground#CharacterRangeLen=4&amp;CharacterRangeLoc=640&amp;EndingColumnNumber=13&amp;EndingLineNumber=20&amp;StartingColumnNumber=9&amp;StartingLineNumber=20&amp;Timestamp=637293130.218304"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/johnnysoto/Code/swift-debugging-testing-building/ios-data-persistence-big-picture/02/demos/demos/Before/DecodableDemo.playground#CharacterRangeLen=7&amp;CharacterRangeLoc=760&amp;EndingColumnNumber=16&amp;EndingLineNumber=23&amp;StartingColumnNumber=9&amp;StartingLineNumber=23&amp;Timestamp=637293130.218479"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/johnnysoto/Code/swift-debugging-testing-building/ios-data-persistence-big-picture/02/demos/demos/Before/DecodableDemo.playground#CharacterRangeLen=15&amp;CharacterRangeLoc=950&amp;EndingColumnNumber=28&amp;EndingLineNumber=28&amp;StartingColumnNumber=13&amp;StartingLineNumber=28&amp;Timestamp=637293130.218603"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+   </TimelineItems>
+</Timeline>

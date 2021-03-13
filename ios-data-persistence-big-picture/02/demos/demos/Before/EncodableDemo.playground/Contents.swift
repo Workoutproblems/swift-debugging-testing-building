@@ -17,3 +17,12 @@ let idea = InnovationIdea(title: "Swarm Teams",
                           description: "Allow us to form small teams to tackle problems...",
                           isDraft: true,
                           submittedBy: "Kathy")
+
+let encoder = JSONEncoder()
+
+do {
+    let encoderIdea = try encoder.encode(idea)
+    let jsonString = String(data: encoderIdea, encoding: .utf8)
+} catch {
+    print(error)
+}
