@@ -21,7 +21,7 @@ class GiftViewController: UIViewController {
     }
 }
 
-extension GiftViewController: UICollectionViewDataSource {
+extension GiftViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return colorData.count
     }

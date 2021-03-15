@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9425479225FED34E00098C95 /* GiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9425479125FED34E00098C95 /* GiftViewController.swift */; };
 		E751E92F21BCD6E800248B9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751E92E21BCD6E800248B9E /* AppDelegate.swift */; };
 		E751E93621BCD6E800248B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E751E93521BCD6E800248B9E /* Assets.xcassets */; };
 		E751E93921BCD6E800248B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E751E93721BCD6E800248B9E /* LaunchScreen.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9425479125FED34E00098C95 /* GiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftViewController.swift; sourceTree = "<group>"; };
 		E751E92B21BCD6E800248B9E /* WiredBrainCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiredBrainCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E751E92E21BCD6E800248B9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E751E93521BCD6E800248B9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				E78E378E21BE37E800DF4E57 /* GiftViewController.storyboard */,
+				9425479125FED34E00098C95 /* GiftViewController.swift */,
 			);
 			path = GiftViewController;
 			sourceTree = "<group>";
@@ -192,7 +195,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Mark Moeykens";
 				TargetAttributes = {
 					E751E92A21BCD6E800248B9E = {
@@ -243,6 +246,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9425479225FED34E00098C95 /* GiftViewController.swift in Sources */,
 				E7B5046921BF7FAA00076561 /* GiftCardModel.swift in Sources */,
 				E751E92F21BCD6E800248B9E /* AppDelegate.swift in Sources */,
 				E7B5046B21BF867000076561 /* GiftCardFunctions.swift in Sources */,
@@ -289,6 +293,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -350,6 +355,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
