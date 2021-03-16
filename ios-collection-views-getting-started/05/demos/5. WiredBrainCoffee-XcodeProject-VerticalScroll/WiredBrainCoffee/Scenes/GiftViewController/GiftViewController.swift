@@ -44,4 +44,17 @@ extension GiftViewController: UICollectionViewDataSource, UICollectionViewDelega
         let height: CGFloat = 100
         return CGSize(width: width, height: height)
     }
+    // Section header
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        
+        if kind == UICollectionView.elementKindSectionHeader {
+            let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "sectionHeader", for: indexPath) as! HeaderCollectionReusableView
+            view.setup(count: colorData.count)
+            return view
+        } else {
+            let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "sectionFooter", for: indexPath)
+            view.backgroundColor = UIColor.purple
+            return view
+        }
+    }
 }
