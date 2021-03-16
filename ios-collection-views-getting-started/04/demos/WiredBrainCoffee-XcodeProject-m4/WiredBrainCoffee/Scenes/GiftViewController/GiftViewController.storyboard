@@ -17,9 +17,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="KC7-BM-lyT">
-                                <rect key="frame" x="16" y="108" width="382" height="734"/>
+                                <rect key="frame" x="16" y="108" width="382" height="358.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="flM-X0-ybZ">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="flM-X0-ybZ">
                                     <size key="itemSize" width="200" height="200"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -27,7 +27,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GiftCardCell" id="NHb-i2-asc">
-                                        <rect key="frame" x="91" y="0.0" width="200" height="200"/>
+                                        <rect key="frame" x="0.0" y="79.5" width="200" height="200"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
@@ -41,9 +41,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="2nf-6T-9QI" firstAttribute="trailing" secondItem="KC7-BM-lyT" secondAttribute="trailing" constant="16" id="661-WH-9OS"/>
+                            <constraint firstItem="KC7-BM-lyT" firstAttribute="height" secondItem="XzK-ae-g2g" secondAttribute="height" multiplier="0.4" id="ITu-0U-sKM"/>
                             <constraint firstItem="KC7-BM-lyT" firstAttribute="leading" secondItem="2nf-6T-9QI" secondAttribute="leading" constant="16" id="Rei-2V-5eF"/>
                             <constraint firstItem="KC7-BM-lyT" firstAttribute="top" secondItem="2nf-6T-9QI" secondAttribute="top" constant="20" id="cOJ-bk-uIL"/>
-                            <constraint firstItem="2nf-6T-9QI" firstAttribute="bottom" secondItem="KC7-BM-lyT" secondAttribute="bottom" constant="20" id="eGH-7J-YLb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Gift cards" id="uTk-oK-fu6"/>
@@ -53,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ntG-uA-tFR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1376.8" y="749.7751124437782"/>
+            <point key="canvasLocation" x="1375.3623188405797" y="749.33035714285711"/>
         </scene>
         <!--Gift-->
         <scene sceneID="dYa-xe-YrL">

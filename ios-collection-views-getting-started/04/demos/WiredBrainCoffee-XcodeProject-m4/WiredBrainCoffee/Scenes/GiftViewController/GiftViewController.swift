@@ -18,9 +18,11 @@ class GiftViewController: UIViewController {
         super.viewDidLoad()
         
         seasonCollectionView.dataSource = self
+        // 1. inform storyboard, set property for layout
+        seasonCollectionView.delegate = self
     }
 }
-
+// View controller the delegate, default funcs required
 extension GiftViewController: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return colorData.count
@@ -30,5 +32,17 @@ extension GiftViewController: UICollectionViewDataSource, UICollectionViewDelega
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "GiftCardCell", for: indexPath)
         cell.backgroundColor = colorData[indexPath.item]
         return cell
+    }
+    // 1. set custom size layouts
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        // 2 lines side by side
+        let rows: CGFloat = 2
+        let collectionViewHeight = collectionView.bounds.height
+        let flowLayout = collectionViewLayout as! UICollectionViewFlowLayout
+        let spaceBetweenCells = flowLayout.minimumInteritemSpacing
+        let adjustedHeight = collectionViewHeight - spaceBetweenCells * (rows - 1)
+        let width: CGFloat = 100
+        let height: CGFloat = floor(adjustedHeight/rows)
+        return CGSize(width: width, height: height)
     }
 }
