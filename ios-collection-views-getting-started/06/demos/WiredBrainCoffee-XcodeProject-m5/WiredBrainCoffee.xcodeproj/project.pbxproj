@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		594BA1152278C4F20066E2CD /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594BA1142278C4F20066E2CD /* HeaderCollectionReusableView.swift */; };
 		941671382601A9FD00554539 /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941671372601A9FD00554539 /* ColorCollectionViewCell.swift */; };
+		9416713D2602049A00554539 /* GiftCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9416713C2602049A00554539 /* GiftCardCollectionViewCell.swift */; };
 		E751E92F21BCD6E800248B9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751E92E21BCD6E800248B9E /* AppDelegate.swift */; };
 		E751E93621BCD6E800248B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E751E93521BCD6E800248B9E /* Assets.xcassets */; };
 		E751E93921BCD6E800248B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E751E93721BCD6E800248B9E /* LaunchScreen.storyboard */; };
@@ -25,8 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		594BA1142278C4F20066E2CD /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 		941671372601A9FD00554539 /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
+		9416713C2602049A00554539 /* GiftCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardCollectionViewCell.swift; sourceTree = "<group>"; };
 		E751E92B21BCD6E800248B9E /* WiredBrainCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiredBrainCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E751E92E21BCD6E800248B9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E751E93521BCD6E800248B9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -150,8 +150,8 @@
 			children = (
 				E78E378E21BE37E800DF4E57 /* GiftViewController.storyboard */,
 				E7660BB2224580760053EA73 /* GiftViewController.swift */,
-				594BA1142278C4F20066E2CD /* HeaderCollectionReusableView.swift */,
 				941671372601A9FD00554539 /* ColorCollectionViewCell.swift */,
+				9416713C2602049A00554539 /* GiftCardCollectionViewCell.swift */,
 			);
 			path = GiftViewController;
 			sourceTree = "<group>";
@@ -254,9 +254,9 @@
 			files = (
 				941671382601A9FD00554539 /* ColorCollectionViewCell.swift in Sources */,
 				E7660BB3224580760053EA73 /* GiftViewController.swift in Sources */,
+				9416713D2602049A00554539 /* GiftCardCollectionViewCell.swift in Sources */,
 				E7B5046921BF7FAA00076561 /* GiftCardModel.swift in Sources */,
 				E751E92F21BCD6E800248B9E /* AppDelegate.swift in Sources */,
-				594BA1152278C4F20066E2CD /* HeaderCollectionReusableView.swift in Sources */,
 				E7B5046B21BF867000076561 /* GiftCardFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

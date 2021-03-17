@@ -10,6 +10,15 @@ import UIKit
 
 class ColorCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var numberLabel: UILabel!
+    // adding cell dropshadow
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        layer.cornerRadius = 10
+        layer.shadowOpacity = 1
+        layer.shadowOffset = CGSize(width: 1, height: 1)
+    }
+    
     // pass in all the data for cell to format
     func setup(backgroundColor: UIColor, cellNumber: Int) {
         self.backgroundColor = backgroundColor
