@@ -15,6 +15,7 @@ class GiftCardCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         
         layer.cornerRadius = 10
+        giftCardImageView.layer.cornerRadius = layer.cornerRadius
         layer.shadowOpacity = 1
         layer.shadowOffset = CGSize(width: 1, height: 1)
     }
