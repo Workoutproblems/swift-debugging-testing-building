@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D34F1B4228637CE00D50EC4 /* ColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34F1B3228637CE00D50EC4 /* ColorCollectionViewCell.swift */; };
 		4D34F1B62286423B00D50EC4 /* GiftCardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D34F1B52286423B00D50EC4 /* GiftCardCollectionViewCell.swift */; };
 		E751E92F21BCD6E800248B9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751E92E21BCD6E800248B9E /* AppDelegate.swift */; };
 		E751E93621BCD6E800248B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E751E93521BCD6E800248B9E /* Assets.xcassets */; };
@@ -25,7 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D34F1B3228637CE00D50EC4 /* ColorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewCell.swift; sourceTree = "<group>"; };
 		4D34F1B52286423B00D50EC4 /* GiftCardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftCardCollectionViewCell.swift; sourceTree = "<group>"; };
 		E751E92B21BCD6E800248B9E /* WiredBrainCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiredBrainCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E751E92E21BCD6E800248B9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 			children = (
 				E78E378E21BE37E800DF4E57 /* GiftViewController.storyboard */,
 				E7660BB2224580760053EA73 /* GiftViewController.swift */,
-				4D34F1B3228637CE00D50EC4 /* ColorCollectionViewCell.swift */,
 				4D34F1B52286423B00D50EC4 /* GiftCardCollectionViewCell.swift */,
 			);
 			path = GiftViewController;
@@ -252,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D34F1B4228637CE00D50EC4 /* ColorCollectionViewCell.swift in Sources */,
 				E7660BB3224580760053EA73 /* GiftViewController.swift in Sources */,
 				4D34F1B62286423B00D50EC4 /* GiftCardCollectionViewCell.swift in Sources */,
 				E7B5046921BF7FAA00076561 /* GiftCardModel.swift in Sources */,

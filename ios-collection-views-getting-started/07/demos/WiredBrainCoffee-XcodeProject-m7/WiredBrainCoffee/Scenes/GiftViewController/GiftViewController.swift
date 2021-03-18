@@ -10,6 +10,7 @@ import UIKit
 
 class GiftViewController: UIViewController {
     
+    @IBOutlet weak var seasonalHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var seasonalCollectionView: UICollectionView!
     
     var seasonalGiftCards = [GiftCardModel]()
@@ -25,6 +26,19 @@ class GiftViewController: UIViewController {
             self.seasonalGiftCards = cards
             self.seasonalCollectionView.reloadData()
         }
+    }
+    // function to help calling setHeightOfCollectionView
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        setHeightOfCollectionView()
+    }
+    
+    func setHeightOfCollectionView() {
+        // obj: get height of cell dynamically
+        let width = seasonalCollectionView.bounds.width - 30
+        let height = width / 1.5
+        seasonalHeightConstraint.constant = height
     }
 }
 
@@ -42,23 +56,9 @@ extension GiftViewController: UICollectionViewDataSource, UICollectionViewDelega
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        let columns: CGFloat = 2
-        let collectionViewWidth = collectionView.bounds.width
-        let flowLayout = collectionViewLayout as! UICollectionViewFlowLayout
-        let spaceBetweenCells = flowLayout.minimumInteritemSpacing * (columns - 1)
-        let sectionInsets = flowLayout.sectionInset.left + flowLayout.sectionInset.right
-        let adjustedWidth = collectionViewWidth - spaceBetweenCells - sectionInsets
-        let width: CGFloat = floor(adjustedWidth / columns)
-        let height: CGFloat = width / 1.5
+        let width = seasonalCollectionView.bounds.width - 50
+        let height = width / 1.5
         return CGSize(width: width, height: height)
     }
     
-    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath)
-        -> UICollectionReusableView {
-            let view = collectionView.dequeueReusableSupplementaryView(
-                ofKind: UICollectionView.elementKindSectionHeader,
-                withReuseIdentifier: "sectionheader",
-                for: indexPath)
-            return view
-    }
 }

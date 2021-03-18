@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kA7-Og-3QT">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="kA7-Og-3QT">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,17 +17,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="KC7-BM-lyT">
-                                <rect key="frame" x="16" y="160" width="382" height="736"/>
+                                <rect key="frame" x="16" y="152" width="382" height="189"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Lto-Mo-brk">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="189" id="yxi-3U-8xN"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="20" minimumInteritemSpacing="10" id="Lto-Mo-brk">
                                     <size key="itemSize" width="180" height="182"/>
-                                    <size key="headerReferenceSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="5" minY="0.0" maxX="5" maxY="10"/>
+                                    <inset key="sectionInset" minX="5" minY="0.0" maxX="5" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GiftCardCell" id="NHb-i2-asc" customClass="GiftCardCollectionViewCell" customModule="WiredBrainCoffee" customModuleProvider="target">
-                                        <rect key="frame" x="5" y="50" width="180" height="182"/>
+                                        <rect key="frame" x="5" y="3.5" width="180" height="182"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="180" height="182"/>
@@ -52,33 +53,29 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="sectionheader" id="xAV-rT-111">
-                                    <rect key="frame" x="0.0" y="0.0" width="382" height="50"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Seasonal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dQ-90-PNJ">
-                                            <rect key="frame" x="8" y="15" width="366" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </collectionReusableView>
                             </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seasonal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RnQ-Ys-OeY">
+                                <rect key="frame" x="16" y="108" width="382" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="2nf-6T-9QI"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="KC7-BM-lyT" secondAttribute="bottom" id="4qG-qN-2ZD"/>
                             <constraint firstItem="2nf-6T-9QI" firstAttribute="trailing" secondItem="KC7-BM-lyT" secondAttribute="trailing" constant="16" id="661-WH-9OS"/>
+                            <constraint firstItem="RnQ-Ys-OeY" firstAttribute="leading" secondItem="2nf-6T-9QI" secondAttribute="leading" constant="16" id="IM5-Zz-x1S"/>
                             <constraint firstItem="KC7-BM-lyT" firstAttribute="leading" secondItem="2nf-6T-9QI" secondAttribute="leading" constant="16" id="Rei-2V-5eF"/>
-                            <constraint firstItem="KC7-BM-lyT" firstAttribute="top" secondItem="2nf-6T-9QI" secondAttribute="top" constant="20" id="cOJ-bk-uIL"/>
+                            <constraint firstItem="RnQ-Ys-OeY" firstAttribute="top" secondItem="2nf-6T-9QI" secondAttribute="top" constant="20" id="V02-b8-kZA"/>
+                            <constraint firstItem="KC7-BM-lyT" firstAttribute="top" secondItem="RnQ-Ys-OeY" secondAttribute="bottom" constant="15" id="lqD-nd-MET"/>
+                            <constraint firstItem="2nf-6T-9QI" firstAttribute="trailing" secondItem="RnQ-Ys-OeY" secondAttribute="trailing" constant="16" id="oZF-Y0-Eo3"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="2nf-6T-9QI"/>
                     </view>
                     <navigationItem key="navigationItem" title="Gift cards" id="uTk-oK-fu6"/>
                     <connections>
                         <outlet property="seasonalCollectionView" destination="KC7-BM-lyT" id="SUu-Xp-zEI"/>
+                        <outlet property="seasonalHeightConstraint" destination="yxi-3U-8xN" id="y7l-oU-7SW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ntG-uA-tFR" userLabel="First Responder" sceneMemberID="firstResponder"/>
