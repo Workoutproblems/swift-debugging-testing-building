@@ -13,7 +13,7 @@ class DataService {
     fileprivate let baseURLString = "https://api.github.com"
     
     // @escaping, executes after func returns
-    func fetchGist(completion: @escaping (Result<Any, Error>) -> Void) {
+    func fetchGist(completion: @escaping (Result<[Gist], Error>) -> Void) {
         
         var componentURL = URLComponents()
         //scheme and host props
@@ -39,8 +39,9 @@ class DataService {
             }
             
             do {
-                let json = try JSONSerialization.jsonObject(with: validData, options: [])
-                completion(.success(json))
+                //let json = try JSONSerialization.jsonObject(with: validData, options: [])
+                let gists = try JSONDecoder().decode([Gist].self, from: validData)
+                completion(.success(gists))
             } catch let serializationError {
                 completion(.failure(serializationError))
             }
