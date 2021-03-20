@@ -12,6 +12,15 @@ class DataService {
     static let shared = DataService()
     fileprivate let baseURLString = "https://api.github.com"
     
+    let customSession: URLSession = {
+        let customConfig = URLSessionConfiguration.default
+        //let backgroundConfig = URLSessionConfiguration.background(withIdentifier: "")
+        customConfig.networkServiceType = .video
+        customConfig.allowsCellularAccess = true
+        
+        return URLSession(configuration: customConfig)
+    }()
+    
     func fetchGists(completion: @escaping (Result<[Gist], Error>) -> Void) {
         /*var baseURL = URL(string: baseURLString)
         baseURL?.appendPathComponent("/somePath")
@@ -107,7 +116,7 @@ class DataService {
     }
     
     func createAuthCredentials() -> String{
-        let authString = "hferrone:Champloo1989"
+        let authString = "b383dd0e70e959ff2c63c2e0f3ed332919d00d4a"
         var authStringBase64 = ""
         
         if let authData = authString.data(using: .utf8) {

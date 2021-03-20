@@ -32,7 +32,7 @@ class ViewController: UIViewController {
             }
         }*/
         
-        DataService.shared.starUnstarGist(id: "d90df2b209f8813d0e931c9b6f932439", star: false) { (success) in
+        DataService.shared.starUnstarGist(id: "b383dd0e70e959ff2c63c2e0f3ed332919d00d4a", star: true) { (success) in
             
             if success {
                 print("Gist successfully unstarred!")
