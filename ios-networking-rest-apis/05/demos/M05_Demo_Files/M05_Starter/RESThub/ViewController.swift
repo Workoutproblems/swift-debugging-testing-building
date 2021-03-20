@@ -32,6 +32,14 @@ class ViewController: UIViewController {
                     print(error)
             }
         }*/
+        
+        DataService.shared.starUnstarGist(id: "608b8bd6750b0a99fd0269fe38ba55a6", star: true) { (success) in
+            if success {
+                print("Gist successfully starred!")
+            } else {
+                print("Gist was not able to be starred...")
+            }
+        }
     }
 
     @IBAction func createNewGist(_ sender: UIButton) {
