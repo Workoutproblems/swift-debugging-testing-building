@@ -41,5 +41,19 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict/>
+	<key>Exception Domains</key>
+	<dict>
+		<key>google.com</key>
+		<dict>
+			<key>NSIncludesSubdomains</key>
+			<true/>
+			<key>NSExceptionAllowsinsecureHTTPLoads</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>Allow Arbitrary Loads</key>
+	<false/>
 </dict>
 </plist>

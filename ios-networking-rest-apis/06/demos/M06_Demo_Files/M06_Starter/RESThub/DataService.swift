@@ -24,9 +24,9 @@ class DataService {
     func fetchGists(completion: @escaping (Result<[Gist], Error>) -> Void) {
         /*var baseURL = URL(string: baseURLString)
         baseURL?.appendPathComponent("/somePath")
-        let compusedURL = URL(string: "/somePath", relativeTo: baseURL)
+        let composedURL = URL(string: "/somePath", relativeTo: baseURL)
         print(baseURL!)
-        print(compusedURL?.absoluteString ?? "Relative URL failed...")*/
+        print(composedURL?.absoluteString ?? "Relative URL failed...")*/
         
         var componentURL = URLComponents()
         componentURL.scheme = "https"

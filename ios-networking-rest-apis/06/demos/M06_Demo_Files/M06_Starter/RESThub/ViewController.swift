@@ -43,9 +43,9 @@ class ViewController: UIViewController {
         DataService.shared.createNewGist { (result) in
             DispatchQueue.main.async {
                 switch result {
-                    case .success(let json):
+                case .success( _):
                         self.showResultAlert(title: "yes!", message: "New post successfully  created")
-                    case .failure(let error):
+                case .failure( _):
                         self.showResultAlert(title: "no!", message: "Something has failed to create")
                 }
             }
@@ -108,7 +108,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
                     if success {
                         self.showResultAlert(title: "yes!", message: "Gist successfully unstarred!")
                     } else {
-                        self.showResultAlert(title: "no!", message: "Gist was not able to be unstarred...")
+                        self.showResultAlert(title: "no!", message: "Something went wrong...")
                     }
                 }
                 
